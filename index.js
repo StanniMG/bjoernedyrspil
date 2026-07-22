@@ -842,7 +842,7 @@ katastrofeUp3.onclick = function () {
     });
 });
 
-let ekstra_point = 0
+
 // Buy more points per second
 formeringUp.onclick = function () {
     if (!start){
@@ -859,10 +859,6 @@ formeringUp.onclick = function () {
         count -= formeringCost;
         showChangeLabel(-formeringCost);
         countPerSec += plusIncreasePerSec;
-        ekstra_point += 1;
-        if (ekstra_point == 5) {
-            window.open("https://www.youtube.com/watch?v=xvFZjo5PgG0", "_blank");
-        }
         updateUI();
     }
 };
